@@ -2,13 +2,7 @@
 -- Topic: MySQL Basics
 -- ============================
 
--- A database is like a folder
--- A table is like an Excel sheet
--- Columns = headings
--- Rows = data
-
 -- Create a database
---syntax : CREATE DATABASE database_name;
 CREATE DATABASE college;
 
 -- Show all databases
@@ -20,9 +14,13 @@ USE college;
 -- Show current database
 SELECT DATABASE();
 
---and to show all databases use commanad called
-SHOW DATABASES;
-
-
-
-
+-- --------------------------------
+-- Drop database (DANGER)
+-- --------------------------------
+-- DROP DATABASE college;
+-- This command permanently deletes:
+-- 1. The database
+-- 2. All tables inside it
+-- 3. All stored data
+-- There is NO undo operation
+-- Use only when you are 100% sure
