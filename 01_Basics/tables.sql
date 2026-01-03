@@ -14,3 +14,10 @@ CREATE TABLE students (
 
 -- Check table structure
 DESC students;
+
+-- Drop table (deletes table structure + data)
+-- DROP TABLE students;
+
+-- Truncate table (deletes all rows, keeps structure)
+-- TRUNCATE TABLE students;
+
